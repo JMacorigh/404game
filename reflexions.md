@@ -17,8 +17,6 @@ On défini une fonction onkeydown qui intercepte les flèches (ou ZQSD ?) et qui
 
 Il faudra trouver une animation pour donner l'impression que la personne marche.
 
-** Vérifier qu'on peut facilement rentrer dans un SVG avec jQuery ou autre **
-
-** Trouver une méthode de gestion des messages **
-
-** Dessiner les différents écrans pour voir la place prise et comment tout gérer **
+**Vérifier qu'on peut facilement rentrer dans un SVG avec jQuery ou autre **
+**Trouver une méthode de gestion des messages **
+**Dessiner les différents écrans pour voir la place prise et comment tout gérer **
