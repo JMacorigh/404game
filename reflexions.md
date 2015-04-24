@@ -13,10 +13,10 @@ Toutes les images utilisées seront des SVG afin d'avoir la plus grande flexibil
 Framework paper.js utilisé pour gérer les animations et interactions.
 
 **=> comment déplacer le personnage ?**
+On défini une fonction onkeydown qui intercepte les flèches (ou ZQSD ?) et qui déplace le fond à l'inverse de la direction demandée, le personnage restant au centre de la zone d'affichage.
 
-Gérer le déplacement sur le onFrame si la personne est appuyée sur une touche de déplacement ? Déclencher le déplacement qu'au bout de 10/30 frames consécutives d'appui ?
+Il faudra trouver une animation pour donner l'impression que la personne marche.
 
-* on garde le personnage toujours au milieu et le fond se déplace à l'inverse du déplacement demandé du personnage
-* on défini une zone dans laquelle le personnage peut se déplacer et quand il arrive aux limites de cette zone, s'il va encore dans cette direction, la caméra se déplace.
-
-Est-ce que paper.js est capable d'afficher des bulles de paroles ? Voir comment les faire.
+** Vérifier qu'on peut facilement rentrer dans un SVG avec jQuery ou autre **
+** Trouver une méthode de gestion des messages **
+** Dessiner les différents écrans pour voir la place prise et comment tout gérer **
